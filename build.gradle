@@ -28,6 +28,6 @@ dependencies {
 }
 
 jar {
-    baseName = 'gs-spring-boot'
+    baseName = 'myspringbootproject'
     version =  '0.1.0'
 }

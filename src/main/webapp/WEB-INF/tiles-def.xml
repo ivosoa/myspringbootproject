@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+ 
+<tiles-definitions>
+    
+    <definition name="app.default" template="default.ftl" templateType="freemarker">
+        <put-attribute name="header" value="/common/header.ftl" type="freemarker"/>
+        <put-attribute name="content" value="" type="string"/>
+        <put-attribute name="footer" value="/common/footer.ftl" type="freemarker"/>
+    </definition>
+    
+    <definition name="app.homepage" extends="app.default" templateType="freemarker">
+        <put-attribute name="content" value="/template/homepage.ftl" type="freemarker"/>
+    </definition>
+    
+</tiles-definitions>
+ 
